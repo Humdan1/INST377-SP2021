@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded' , () => {
+    console.log('DOM fully loaded and parsed');
+    
     const bird = document.querySelector('.bird')
     const gameDisplay = document.querySelector('.game-container')
     const ground = document.querySelector('.ground-moving')
